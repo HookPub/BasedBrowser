@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <title>Based Browser</title>
+       <link rel="shortcut icon" href="src/favicon.ico">
+      <!-- <body background="src/background.jpeg"> -->
+
+      <style>
+      html {
+           align-items: center;
+           background-color: #1d1f2187;
+           color: #c5c8c6;
+           display: flex;
+           font: 22px/1 "Inconsolata", monospace;
+           height: 100%;
+           justify-content: center;
+         }
+
+         body {
+           background-color: #1d1f21;
+           border-radius: 2px;
+           box-shadow: 1px 1px 6px #1d1f2187;
+           color: #c5c8c6;
+           display: flex;
+           flex-direction: column;
+           min-height: 30ch;
+           min-width: 50vw;
+           padding: 2em;
+           align-items: center;
+
+         }
+         /* SEARCH BOX STYLE */
+          .searchBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .inputBox {
+              border-top-style: none;
+              border-right-style: none;
+              border-left-style: none;
+              border-bottom-style: none;
+              background: var(--bg2);
+              font-size: 15px;
+              line-height: 1.5;
+              color: #c5c8c6;
+              font-size: 20px;
+              min-width: 600px;
+              width: 620px;
+              padding: 12px;
+              margin-bottom: 30px;
+              text-align: center;
+              border-color: #c5c8c6;
+              border-radius: 5px;
+              -webkit-box-shadow: 0px 0px 3px 2px #c5c8c6;
+              -moz-box-shadow: 0px 0px 3px 2px #c5c8c6;
+              box-shadow: 0px 0px 3px 2px #c5c8c6;
+            }
+
+            p {
+              padding-bottom: 1px;
+              color: #c5c8c6;
+            }
+
+            a {
+              color: #c5c8c6;
+            }
+            a:visted {
+              color: #c5c8c6;
+            }
+            section {
+              border: 5px groove #c5c8c6;
+              width: 20ch;
+              background: #110;
+              color: #fff;
+              margin: 2rem auto;
+              padding: 1rem;
+            }
+
+            h1{
+              font-size: 25px;
+            }
+
+            .inputBox:focus::placeholder {
+            color: transparent;
+          }
+</style>
+<script>
+const {app, BrowserWindow} = require('electron')
+const path = require('path')
+
+function browse() {
+  var query = document.getElementById("url-input").value;
+  var url = "https://" + encodeURIComponent(query);
+  window.open(url);
+}
+     function feelingBased() {
+       var urls = [
+         "https://www.bitchute.com/",
+         ""
+       ];
+       var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+       window.open(randomUrl);
+     }
+     function search() {
+       // Get the value of the search query input
+       var query = document.getElementById("search-query").value;
+
+       // Construct the URL for the DuckDuckGo search
+       var url = "https://duckduckgo.com/?q=" + encodeURIComponent(query);
+
+       // Redirect the user to the DuckDuckGo search results page
+       window.open(url);
+     }
+   </script>
+   <h1 align="center" class="topheadb"> Based Browser</h1>
+  </head>
+
+<body>
+
+  <div>
+  <input class="inputBox" type="text" id="url-input" placeholder="Enter a URL:" onkeydown="if(event.keyCode==13) browse()">
+     <button onclick="browse()">Go</button>
+   </div>
+<br>
+  <div class="searchBox" id="searchBox">
+    <input class="inputBox" id="search-query" type="text" name="q" placeholder="Quick Search:" tabIndex="2"/ onkeydown="if(event.keyCode==13) search()">
+</div>
+<button onclick="feelingBased()">Im feeling based</button>
+<br>
+<br>
+<section>
+  <p align="center"> About:</p>
+<p align="center">No logs,no ads,no prying eyes. - Paired with a solid VPN using this browser can aid you in avoiding detection. </p>
+<p align="center">Ctrl + R Fixs all problems.</p>
+</section>
+
+</body>
+</html>

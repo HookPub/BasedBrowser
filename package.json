@@ -1,0 +1,20 @@
+{
+  "name": "basedbrowser",
+  "version": "1.0.0",
+  "description": "based brwoser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.0"
+  },
+  "dependencies": {
+    "@cliqz/adblocker-electron": "^1.25.2",
+    "cross-fetch": "^3.1.5",
+    "nativefier": "^50.0.1"
+  }
+}
