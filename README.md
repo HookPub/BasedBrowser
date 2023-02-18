@@ -15,7 +15,7 @@ Prerequisites:
 Install:
 1. Click on the < Code > button (top right) and install the .zip
 2. Extract zip to desktop
-3. open terminal.
+3. open a terminal in the extracted file.
 4. type 'npm install'
 5. After thats complete - type 'npm start'
 6. Enjoy.
