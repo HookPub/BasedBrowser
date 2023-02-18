@@ -2,8 +2,7 @@
 
 No logs,no ads,no prying eyes. - Paired with a solid VPN using this browser can aid you in avoiding detection. 
 
-As we know no browser is truely anoymous, as who ever owns the exit nodes - owns the traffic. Every single 'security' browser has telementary to some monolithic company that since their product is free - sells your data. The differences with this browser are not only is it open-source, with it all being local - you are the exit node; meaning your data goes no-where, its less of a foot print on your machine, and malware at this moment is not tailored to it.
-
+As we know no browser is truely anoymous, as who ever owns the exit nodes - owns the traffic. Every single 'security' browser has telementary being sent back to some monolithic company that since their product is free - sells your data and even with a VPN said monolithic company can still track you (exit nodes). The differences with this browser are not only is it open-source, with it all being local - you are the exit node; meaning your data is not logged in any capacity by us - meaning there is nothing to track via your browser.
 # Installation Guide
 
 There is no dedicated installer - less of a foot print. 
