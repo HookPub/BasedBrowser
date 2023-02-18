@@ -8,9 +8,9 @@ There is no dedicated installer - less of a foot print.
 
 Prerequisites: 
 
--Terminal 
-
 -Node.js Installed (www.nodejs.org)
+
+-Terminal (use the Node.js terminal if you do not have one.)
 
 Install:
 1. Click on the < Code > button (top right) and install the .zip
