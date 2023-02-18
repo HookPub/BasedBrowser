@@ -5,8 +5,11 @@ No logs,no ads,no prying eyes. - Paired with a solid VPN using this browser can 
 # Installation Guide
 
 There is no dedicated installer - less of a foot print. 
+
 Prerequisites: 
+
 -Terminal 
+
 -Node.js Installed (www.nodejs.org)
 
 Install:
