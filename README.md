@@ -10,7 +10,7 @@ Prerequisites:
 -Node.js Installed (www.nodejs.org)
 
 Install:
-1. Click on the <Code> button (top right) and install the .zip
+1. Click on the < Code > button (top right) and install the .zip
 2. Extract zip to desktop
 3. open terminal.
 4. type 'npm install'
