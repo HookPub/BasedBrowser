@@ -27,7 +27,7 @@ For our windows users - To create a desktop icon edit the Start.bat file with th
 
 For Linux users: (Use the shell script)
 1. Update the directory it 'cd' s to.
-2. Enter 'chmod +x start-app.sh' into your terminal.
-3. Run the script. (./start-app.sh)
+2. Enter 'chmod +x Start.sh' into your terminal.
+3. Run the script. (./Start.sh)
 
 To change the search engine, edit the var url in the 'search()' part of the functions.js
