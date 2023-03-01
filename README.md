@@ -25,6 +25,9 @@ Install:
 # More:
 For our windows users - To create a desktop icon edit the Start.bat file with the proper path to your install, then you may place it anywhere (such as your desktop) and it will work swimmingly.
 
-For Linux users - Use the shell script, just update the directory.
+For Linux users: (Use the shell script)
+1. Update the directory it 'cd' s to.
+2. Enter 'chmod +x start-app.sh' into your terminal.
+3. Run the script. (./start-app.sh)
 
 To change the search engine, edit the var url in the 'search()' part of the functions.js
