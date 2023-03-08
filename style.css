@@ -51,8 +51,12 @@ html {
       }
 
       p {
-        padding-bottom: 1px;
         color: #c5c8c6;
+      }
+
+      .nig1 {
+        color: #c5c8c6;
+        font-size: 20px
       }
 
       a {
@@ -67,7 +71,7 @@ html {
         background: #110;
         color: #fff;
         margin: 2rem auto;
-        padding: 1rem;
+        padding: 1rem; 
       }
 
       h1{
